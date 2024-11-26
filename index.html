@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Night Gala 2024</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+        h1, h2, h3, p {
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header Section */
+        .header {
+            background: linear-gradient(to right, #004e64, #00b2a9);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+        }
+        .header p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        /* Event Details Section */
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            padding: 50px 20px;
+        }
+        .details .card {
+            background: white;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            width: 280px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .details .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .details h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+            color: #004e64;
+        }
+        .details p {
+            font-size: 1rem;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        /* RSVP Section */
+        .rsvp {
+            background: #004e64;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .rsvp h2 {
+            font-size: 2.2rem;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 20px;
+        }
+        .rsvp button {
+            background: #00b2a9;
+            color: white;
+            font-size: 1.1rem;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .rsvp button:hover {
+            background: #007a6f;
+            transform: scale(1.1);
+        }
+
+        /* Guest Section */
+        .footer {
+            background: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.05);
+        }
+        .footer h3 {
+            font-size: 1.8rem;
+            font-family: 'Playfair Display', serif;
+            color: #004e64;
+            margin-bottom: 20px;
+        }
+        .footer p {
+            font-size: 1rem;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #555;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .details {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Summer Night Gala 2024</h1>
+        <p>
+            A magical evening of elegance and celebration under the stars. 
+            Join us for unforgettable moments of music, dining, and dancing.
+        </p>
+    </div>
+
+    <!-- Event Details Section -->
+    <div class="details">
+        <div class="card">
+            <h2>Date & Time</h2>
+            <p>Saturday, June 22, 2024</p>
+            <p>7:00 PM - Midnight</p>
+        </div>
+        <div class="card">
+            <h2>Location</h2>
+            <p>Moonlit Garden Pavilion</p>
+            <p>123 Event Lane, Cityville</p>
+        </div>
+        <div class="card">
+            <h2>Event Highlights</h2>
+            <p>Experience gourmet dining, live performances, and a breathtaking ambiance. Dress code: Formal Attire.</p>
+        </div>
+    </div>
+
+    <!-- RSVP Section -->
+    <div class="rsvp">
+        <h2>RSVP Today</h2>
+        <button>Confirm Attendance</button>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <h3>Special Guests</h3>
+        <p>
+            We are honored to welcome world-class performers and speakers to make this night unforgettable.
+            Stay tuned for exclusive guest announcements!
+        </p>
+    </div>
+
+</body>
+</html>
